@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="886.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.ProfileController">
+   <children>
+      <Label layoutX="265.0" layoutY="291.0" prefHeight="30.0" prefWidth="42.0" text="Level :" />
+      <TextField fx:id="name" layoutX="359.0" layoutY="225.0" prefHeight="31.0" prefWidth="308.0" />
+      <Text layoutX="265.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" />
+      <Button fx:id="Save" layoutX="739.0" layoutY="224.0" mnemonicParsing="false" onAction="#Changes" text="Save" />
+      <Text layoutX="265.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Character Change :" />
+      <Button fx:id="Back" layoutX="265.0" layoutY="450.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button fx:id="forward" layoutX="765.0" layoutY="381.0" mnemonicParsing="false" onAction="#Forward" text="Forward" />
+      <Button fx:id="backward" layoutX="453.0" layoutY="380.0" mnemonicParsing="false" onAction="#Backward" text="Backward" />
+      <Pane fx:id="paneview" layoutX="550.0" layoutY="420.0" prefHeight="246.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="imv" fitHeight="150.0" fitWidth="200.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/sprite.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

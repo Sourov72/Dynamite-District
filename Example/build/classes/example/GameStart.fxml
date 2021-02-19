@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.GameStartController">
+   <children>
+      <Button layoutX="458.0" layoutY="167.0" mnemonicParsing="false" onAction="#host" text="Host Game" />
+      <Button layoutX="463.0" layoutY="292.0" mnemonicParsing="false" onAction="#join" text="JoinGame" />
+      <Button layoutX="679.0" layoutY="406.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

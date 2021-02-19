@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.LobbyController">
+   <children>
+      <Text layoutX="737.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Number:1234" wrappingWidth="220.6708984375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button layoutX="794.0" layoutY="127.0" mnemonicParsing="false" onAction="#start" onContextMenuRequested="#start" text="Start Game" />
+      <Button layoutX="841.0" layoutY="187.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

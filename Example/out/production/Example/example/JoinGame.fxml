@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="980.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.JoinGameController">
+   <children>
+      <TextField fx:id="ipaddress" layoutX="435.0" layoutY="132.0" promptText="IP Address" />
+      <TextField fx:id="portnumber" layoutX="435.0" layoutY="212.0" promptText="Port Number" />
+      <Button layoutX="503.0" layoutY="295.0" mnemonicParsing="false" onAction="#join" text="JOIN" />
+      <Button layoutX="504.0" layoutY="373.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run1134355878/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run1525891870/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run1725545568/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run537778131/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run857637656/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run869981942/Example.jar"/>
+	<classpathentry kind="lib" path="dist/run924100418/Example.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="886.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.OptionsController">
+   <children>
+       <ImageView fitHeight="886.0" fitWidth="1300.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/shoot.jpg">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/sound.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="555.0" layoutY="75.0" onContextMenuRequested="#On" onMouseClicked="#On" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/on.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="661.0" layoutY="75.0" onContextMenuRequested="#Off" onMouseClicked="#Off" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/off.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="200.0" layoutX="300.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/music.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="555.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/on.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="661.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/off.png">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="25.0" fitWidth="100.0" layoutX="810.0" layoutY="75.0" onContextMenuRequested="#Splus" onMouseClicked="#Splus" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/plus.jpg">
+           </Image>
+           </image>
+       </ImageView>
+       <ImageView fitHeight="25.0" fitWidth="100.0" layoutX="879.0" layoutY="75.0" onContextMenuRequested="#Sminus" onMouseClicked="#Sminus" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="image/minus.jpg">
+           </Image>
+           </image>
+       </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="1236.0" layoutY="26.0" onContextMenuRequested="#back" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+      <image>
+               <Image url="image/Back.png">
+           </Image>
+           </image>
+      </ImageView>
+   </children>
+</AnchorPane>
